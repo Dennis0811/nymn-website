@@ -14,7 +14,7 @@ const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   const headerElements = [
-    { name: "Home", link: "/", icon: HomeIcon },
+    { name: "Home", link: "/nymn-website/", icon: HomeIcon },
     { name: "Movie Night", link: "/movies", icon: MovieIcon },
     { name: "Games", link: "/games", icon: GameIcon },
     { name: "Friday Reviews", link: "/review", icon: ReviewIcon },
