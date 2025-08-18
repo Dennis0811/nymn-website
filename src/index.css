@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@theme {
+  /* Colors */
+  --color-*: initial;
+
+  --color-primary-bg: #1b263b;
+  --color-secondary-bg: #314761;
+  --color-hover-bg: #31476180;
+
+  --color-primary-text: #ffffff;
+  --color-secondary-text: #b0b0b0;
+
+  --color-accent: #ad4769;
+
+  /* Twitch Colors */
+  --color-primary-twitch-purple: #8956fb;
+  --color-secondary-twitch-purple: #9146ff;
+}
