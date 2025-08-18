@@ -1,4 +1,5 @@
 import {
+  DiscordIcon,
   InstagramIcon,
   RedditIcon,
   TwitchIcon,
@@ -26,6 +27,11 @@ const Footer = () => {
       name: "Reddit",
       link: "https://www.reddit.com/r/RedditAndChill",
       icon: RedditIcon,
+    },
+    {
+      name: "Discord",
+      link: "https://discord.com/invite/aDuwdxB",
+      icon: DiscordIcon,
     },
   ];
 
