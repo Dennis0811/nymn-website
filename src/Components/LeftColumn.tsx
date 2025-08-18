@@ -91,7 +91,7 @@ const LeftColumn = () => {
             >
               <div className="flex items-center space-x-2 min-w-fit">
                 <img
-                  src={`/profiles/${friend.name.toLowerCase()}.png`}
+                  src={`${friend.name.toLowerCase()}-logo.png`}
                   alt={`${friend.name} Logo`}
                   className="h-10 w-10 rounded-full"
                 />

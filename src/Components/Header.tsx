@@ -31,7 +31,7 @@ const Header = () => {
         {/* Logo */}
         <a href="/" className="shrink-0 mr-6">
           <img
-            src="/nymn-logo-transparent.png"
+            src="nymn-logo-transparent.png"
             alt="Nymn Logo"
             className="h-12 w-12 object-contain"
           />

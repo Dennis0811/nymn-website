@@ -99,7 +99,7 @@ export const NymptsIcon = ({ className }: { className?: string }) => (
     width={24}
     height={24}
     className={className}
-    src="/nympts.webp"
+    src="nympts.webp"
     alt="Nympts Icon"
   />
 );
