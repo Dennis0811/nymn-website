@@ -22,7 +22,7 @@ const App = () => {
           </section>
           <section className="flex grow shrink-0 rounded min-w-sm shadow-lg">
             <iframe
-              src="https://player.twitch.tv/?channel=nymn&parent=dennis0811.github.io/nymn-website/"
+              src="https://player.twitch.tv/?channel=nymn&parent=dennis0811.github.io"
               height="100%"
               width="100%"
               allowFullScreen
@@ -33,7 +33,7 @@ const App = () => {
           </section>
           <section className="hidden shrink md:flex basis-sm rounded min-w-3xs shadow-lg">
             <iframe
-              src="https://www.twitch.tv/embed/nymn/chat?parent=dennis0811.github.io/nymn-website/"
+              src="https://www.twitch.tv/embed/nymn/chat?parent=dennis0811.github.io"
               height="100%"
               width="100%"
               frameBorder="0"
