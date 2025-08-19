@@ -9,7 +9,6 @@ const iconMap = {
   instagram: InstagramIcon,
 };
 
-// Only enough space for 4 links per friend due to width constraints in the layout
 const LeftColumn = () => {
   const friends = [
     {
