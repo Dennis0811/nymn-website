@@ -11,29 +11,29 @@ const App = () => {
 
       <main
         className="
-          flex grow flex-col sm:p-8
+          flex grow flex-col lg:p-8
           bg-[url(/mountain-landscape.png)] bg-cover bg-no-repeat bg-fixed
           "
       >
         {/* Three columns */}
-        <div className="flex flex-row sm:space-x-8 grow min-h-[75vh]">
-          <section className="hidden lg:flex flex-col shrink basis-2xs rounded p-5 bg-primary-bg text-secondary-text shadow-lg">
+        <div className="flex flex-row lg:space-x-8 grow">
+          <section className="hidden 2xl:flex flex-col shrink basis-2xs min-w-3xs rounded p-5 bg-primary-bg text-secondary-text shadow-lg">
             <LeftColumn />
           </section>
-          <section className="flex grow shrink-0 rounded min-w-sm shadow-lg">
+          <section className="flex grow shrink-0 rounded shadow-lg aspect-video">
             <iframe
               src="https://player.twitch.tv/?channel=nymn&parent=dennis0811.github.io"
               height="100%"
               width="100%"
               allowFullScreen
               frameBorder="0"
-              className="sm:rounded"
+              className="lg:rounded"
               title="Twitch Stream"
             />
           </section>
-          <section className="hidden shrink md:flex basis-sm rounded min-w-3xs shadow-lg">
+          <section className="hidden shrink lg:flex basis-xs rounded min-w-3xs shadow-lg">
             <iframe
-              src="https://www.twitch.tv/embed/nymn/chat?parent=dennis0811.github.io"
+              src="https://player.twitch.tv/?channel=nymn&parent=dennis0811.github.io"
               height="100%"
               width="100%"
               frameBorder="0"
