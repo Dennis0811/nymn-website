@@ -2,7 +2,7 @@
 
 I thought your website looked a bit outdated, so I decided to make a new one that hopefully looks a bit more modern.
 The website is responsive which makes it look great on all devices.
-You can find the website at [https://dennis0811.github.io/Nymn-Website/](https://dennis0811.github.io/Nymn-Website/).
+You can find the website [here](https://dennis0811.github.io/nymn-website/).
 
 ## 🖥️ Desktop 1440p (2K)
 
