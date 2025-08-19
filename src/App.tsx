@@ -33,7 +33,7 @@ const App = () => {
           </section>
           <section className="hidden shrink lg:flex basis-xs rounded min-w-3xs shadow-lg">
             <iframe
-              src="https://player.twitch.tv/?channel=nymn&parent=dennis0811.github.io"
+              src="https://www.twitch.tv/embed/nymn/chat?parent=dennis0811.github.io"
               height="100%"
               width="100%"
               frameBorder="0"
