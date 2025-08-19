@@ -45,7 +45,21 @@ const LeftColumn = () => {
     },
   ];
 
-  const getNextMovieNightDateString = (date: Date) => {
+  const getNextMovieNightDate = () => {
+    const date = new Date();
+
+    const day = date.getDay();
+    const daysUntilSunday = (7 - day) % 7 || 7;
+    date.setDate(date.getDate() + daysUntilSunday);
+
+    // Set time to 18:00 in UTC+2
+    // UTC+2 means 16:00 UTC
+    date.setUTCHours(16, 0, 0, 0);
+
+    return date;
+  };
+
+  const formatMovieNightString = (date: Date) => {
     const userLocale = navigator.language; // user’s locale
     const userTimezone = Intl.DateTimeFormat().resolvedOptions().timeZone;
 
@@ -68,9 +82,7 @@ const LeftColumn = () => {
     return { movieDate, movieTime };
   };
 
-  const movieNight = getNextMovieNightDateString(
-    new Date("2025-08-17T18:00:00+02:00")
-  );
+  const movieNight = formatMovieNightString(getNextMovieNightDate());
 
   return (
     <>
@@ -82,7 +94,7 @@ const LeftColumn = () => {
             {movieNight.movieTime}
           </p>
         </LeftColumnSection>
-        <LeftColumnSection title="Family and Friends">
+        <LeftColumnSection title="Family and Friends" className="overflow-auto">
           {friends.map((friend) => (
             <div
               key={friend.name}
