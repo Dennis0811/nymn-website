@@ -29,7 +29,7 @@ const Header = () => {
       {/* Left section: Logo + Nav */}
       <div className="flex flex-row items-center w-full xl:w-auto justify-between">
         {/* Logo */}
-        <a href="/" className="shrink-0 mr-6">
+        <a href="/nymn-website/" className="shrink-0 mr-6">
           <img
             src="nymn-logo-transparent.png"
             alt="Nymn Logo"
