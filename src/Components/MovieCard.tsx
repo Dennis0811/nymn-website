@@ -22,12 +22,12 @@ const MovieCard = ({
         href={url}
         target="_blank"
         rel="noopener noreferrer"
-        className="block overflow-hidden w-full"
+        className="block overflow-hidden w-full aspect-2/3"
       >
         <img
           src={movieImageLink}
           alt={`${title} Cover Image`}
-          className="object-cover rounded w-full hover:scale-110 transition"
+          className="object-cover rounded w-full hover:scale-110 transition-transform"
         />
       </a>
 
