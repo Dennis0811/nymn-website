@@ -16,11 +16,11 @@ const App = () => {
           "
       >
         {/* Three columns */}
-        <div className="flex flex-row lg:space-x-8 grow">
-          <section className="hidden 2xl:flex flex-col shrink basis-2xs min-w-3xs rounded p-5 bg-primary-bg text-secondary-text shadow-lg">
+        <div className="flex flex-row lg:space-x-8 max-h-[70vh]">
+          <section className="hidden 2xl:flex flex-col basis-2xs min-w-3xs rounded p-5 bg-primary-bg text-secondary-text shadow-lg">
             <LeftColumn />
           </section>
-          <section className="flex grow shrink-0 rounded shadow-lg aspect-video">
+          <section className="flex grow min-w-0 rounded shadow-lg aspect-video">
             <iframe
               src="https://player.twitch.tv/?channel=nymn&parent=dennis0811.github.io"
               height="100%"
@@ -31,7 +31,7 @@ const App = () => {
               title="Twitch Stream"
             />
           </section>
-          <section className="hidden shrink lg:flex basis-xs rounded min-w-3xs shadow-lg">
+          <section className="hidden lg:flex rounded min-w-3xs max-w-2xs shadow-lg">
             <iframe
               src="https://www.twitch.tv/embed/nymn/chat?parent=dennis0811.github.io"
               height="100%"
