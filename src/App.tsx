@@ -16,8 +16,8 @@ const App = () => {
           "
       >
         {/* Three columns */}
-        <div className="flex flex-row lg:space-x-8 max-h-[70vh]">
-          <section className="hidden 2xl:flex flex-col basis-2xs min-w-3xs rounded p-5 bg-primary-bg text-secondary-text shadow-lg">
+        <div className="flex flex-row lg:space-x-4 xl:space-x-8 max-h-[70vh]">
+          <section className="hidden xl:flex flex-col basis-2xs min-w-3xs rounded p-5 bg-primary-bg text-secondary-text shadow-lg">
             <LeftColumn />
           </section>
           <section className="flex grow min-w-0 rounded shadow-lg aspect-video">
