@@ -17,7 +17,7 @@ const MovieCard = ({
   runtime: string;
 }) => {
   return (
-    <div className="flex flex-col justify-center bg-primary-bg p-2 pb-3 rounded-lg text-secondary-text shadow-lg">
+    <div className="flex flex-col bg-primary-bg p-2 pb-3 rounded-lg text-secondary-text shadow-lg">
       <a
         href={url}
         target="_blank"
@@ -35,7 +35,8 @@ const MovieCard = ({
         href={url}
         target="_blank"
         rel="noopener noreferrer"
-        className="text-lg hover:underline w-fit mt-2"
+        className="text-lg hover:underline max-w-min mt-2 truncate"
+        title={title}
       >
         {title}
       </a>
@@ -45,7 +46,7 @@ const MovieCard = ({
         <p>{runtime}</p>
       </div>
 
-      <div className="flex items-center space-x-2 mt-2">
+      <div className="flex items-center space-x-2 mt-2" title="Likes">
         <HeartIcon className="text-accent" filled />
         <span className="normal-nums">{likes}</span>
       </div>
